@@ -1,0 +1,240 @@
+@font-face {
+  font-family: montserrat;
+  src: url("montserrat-black.ttf");
+}
+
+@font-face {
+  font-family: futura;
+  src: local("Futura Book font.ttf");
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-color: #FFBDBD;
+  margin:0px !important;
+}
+
+.container {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.headSection {
+  width: 500px;
+  height: 150px;
+  background-color: #FFBDBD; 
+}
+
+.company {
+  font-family: Montserrat;
+  margin-left: 34px;
+  margin-top: 27px;
+  font-size: 32px;
+}
+
+.tags div{
+  font-family: 'futura';
+  background-color: #FF7B7B;
+  color: #AB0101;
+  border-radius: 20px;
+  padding: 3px;
+  margin-top: 10px;
+  margin-left: 34px;
+  height: auto;
+  width: fit-content;
+}
+
+.tags div text {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tagsAndSentiment {
+  display: flex;
+}
+
+.sentiment {
+  margin-left: 15px;
+  margin-top: 15px;
+  border-radius: 20px;
+  background-color: #FF7B7B;
+  color: #AB0101;
+  font-family: 'futura';
+  font-size: 28px;
+  padding: 3px;
+  height: auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.sentiment text {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bodySection {
+  font-family: 'futura';
+  width: 500px;
+  height: 300px;
+  background-color: #FFFFFF; 
+  margin-top: 10px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.articlesNav {
+  flex: 1;
+  width: 75px;
+  height: 29px;
+  border-radius: 20px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #EBEBEB;
+  margin-right: 34px;
+  margin-left:17px;
+}
+
+.alternativesNav {
+  flex: 1;
+  width: 75px;
+  height: 29px;
+  border-radius: 20px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #EBEBEB;
+  margin-left: 34px;
+  margin-right:17px;
+}
+
+.articleOne {
+  margin-top: 30px;
+  display: flex;
+  margin-left: 34px;
+  align-items: center;
+}
+
+.articleOneImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.articleOneHeadLine {
+  margin-left: 15px;
+  margin-right: 34px;
+}
+
+.articleOneLink {
+  font-size: 18px;
+}
+
+.articleTwo {
+  margin-top: 15px;
+  display: flex;
+  margin-left: 34px;
+  align-items: center;
+}
+
+.articleTwoImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.articleTwoHeadLine {
+  margin-left: 15px;
+  margin-right: 34px;
+}
+
+.articleTwoLink {
+  font-size: 18px;
+}
+
+.altOne {
+  margin-top: 15px;
+  display: flex;
+  margin-left: 34px;
+  align-items: center;
+}
+
+.altOneImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+
+}
+
+.altOneInfo {
+  margin-left: 15px;
+  margin-right: 34px;
+}
+
+.altOneName {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.altOneStatus {
+  font-size: 14px;
+  font-family: 'futura';
+  background-color: #9AFF98;
+  color: #01AB1D;
+  border-radius: 20px;
+  padding: 3px;
+  height: auto;
+  width: fit-content;
+}
+
+.altOneStatus text {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.altTwo {
+  margin-top: 15px;
+  display: flex;
+  margin-left: 34px;
+  align-items: center;
+}
+
+.altTwoImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+
+}
+
+.altTwoInfo {
+  margin-left: 15px;
+  margin-right: 34px;
+}
+
+.altTwoName {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.altTwoStatus {
+  font-size: 14px;
+  font-family: 'futura';
+  background-color: #9AFF98;
+  color: #01AB1D;
+  border-radius: 20px;
+  padding: 3px;
+  height: auto;
+  width: fit-content;
+}
+
+.altTwoStatus text {
+  margin-left: 10px;
+  margin-right: 10px;
+}
