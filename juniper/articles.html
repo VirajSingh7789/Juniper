@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EvilCompany</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container">
+      <section class="headSection"> 
+        <div class="company" id="company"></div>
+        <div class="tagsAndSentiment">
+          <section class="tags" id="tags">
+            <div><text>Environmental Issues</text></div>
+            <div><text>Worker and Labor Issues</text></div>
+          </section>
+          <div class="sentiment"><text id="sentiment">Loading...</text></div>
+        </div>
+      </section>
+      <section class="bodySection">
+        <div class="navigation"> 
+          <div class="alternativesNav"><a href="./popup.html">Alternatives</a></div>
+          <div class="articlesNav">Top Article</div>
+        </div>
+        <section class="articleOne">
+          <img class="articleOneImg" id="articleOneImg" src="./images/Environmental Issues (Red).png"> 
+          <div class="articleOneHeadLine" id="articleOneHeadLine"><a class="articleOneLink" id="articleOneLink" href="">what an article name</a></div>
+        </section>
+      </section>
+      <script src="background.js"></script>
+      <script src="popup.js"></script>
+      <script src="articles.json"></script>
+    </div>
+  </body>
+</html>
